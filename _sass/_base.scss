@@ -15,7 +15,7 @@ hr {
 }
 
 hr.light {
-    border-color: black;
+    border-color: white;
 }
 
 a {
@@ -48,11 +48,11 @@ p {
 
 .bg-dark {
     background-color: $theme-dark;
-    color: black;
+    color: white;
 }
 
 .text-faded {
-    color: rgba(black, .7);
+    color: rgba(white, .7);
 }
 
 section {
@@ -70,7 +70,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: black;
+    background-color: white;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
@@ -112,21 +112,21 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: rgba(black, .7);
+            color: rgba(white, .7);
             &:hover,
             &:focus {
-                color: black;
+                color: white;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(black, .7);
+            color: rgba(white, .7);
             &:hover {
-                color: black;
+                color: white;
             }
         }
         &.affix {
-            background-color: black;
+            background-color: white;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
@@ -157,7 +157,7 @@ header {
     background-position: center;
     background-image: url('../img/umbc.jpg');
     text-align: center;
-    color: black;
+    color: white;
     .header-content {
         position: relative;
         text-align: center;
@@ -175,7 +175,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(black, .7);
+                color: rgba(white, .7);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
@@ -228,7 +228,7 @@ header {
     max-width: 650px;
     margin: 0 auto;
     .portfolio-box-caption {
-        color: black;
+        color: white;
         opacity: 0;
         display: block;
         background: rgba( $theme-primary, .9 );
@@ -296,11 +296,11 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant($theme-dark, black, black);
+    @include button-variant($theme-dark, white, white);
 }
 
 .btn-primary {
-    @include button-variant(black, $theme-primary, $theme-primary);
+    @include button-variant(white, $theme-primary, $theme-primary);
 }
 
 .btn {
@@ -324,24 +324,24 @@ header {
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
-    color: black;
+    color: white;
     text-shadow: none;
     background: $theme-dark;
 }
 
 ::selection {
-    color: black;
+    color: white;
     text-shadow: none;
     background: $theme-dark;
 }
 
 img::selection {
-    color: black;
+    color: white;
     background: transparent;
 }
 
 img::-moz-selection {
-    color: black;
+    color: white;
     background: transparent;
 }
 
