@@ -157,7 +157,7 @@ header {
     background-position: center;
     background-image: url('../img/umbc.jpg');
     text-align: center;
-    color: white;
+    color: black;
     .header-content {
         position: relative;
         text-align: center;
@@ -175,7 +175,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(yellow, .7);
+                color: rgba(red, .7);
                 font-size: 30px;
                 margin-bottom: 50px;
             }
