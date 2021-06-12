@@ -52,7 +52,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(black, .7);
+    color: rgba(black, .9);
 }
 
 section {
@@ -110,9 +110,9 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: transparent;
-        border-color: rgba(black, .3);
+        border-color: rgba(black, .7);
         .navbar-header .navbar-brand {
-            color: rgba(black, .7);
+            color: rgba(black, .9);
             &:hover,
             &:focus {
                 color: black;
@@ -120,7 +120,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(black, .7);
+            color: rgba(black, .9);
             &:hover {
                 color: black;
             }
