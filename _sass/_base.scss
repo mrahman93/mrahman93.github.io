@@ -15,7 +15,7 @@ hr {
 }
 
 hr.light {
-    border-color: white;
+    border-color: black;
 }
 
 a {
@@ -48,11 +48,11 @@ p {
 
 .bg-dark {
     background-color: $theme-dark;
-    color: white;
+    color: black;
 }
 
 .text-faded {
-    color: rgba(white, .7);
+    color: rgba(black, .7);
 }
 
 section {
@@ -70,7 +70,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
+    background-color: black;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
@@ -110,23 +110,23 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: transparent;
-        border-color: rgba(white, .3);
+        border-color: rgba(black, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: rgba(black, .7);
             &:hover,
             &:focus {
-                color: white;
+                color: black;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba(black, .7);
             &:hover {
-                color: white;
+                color: black;
             }
         }
         &.affix {
-            background-color: white;
+            background-color: black;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
@@ -228,7 +228,7 @@ header {
     max-width: 650px;
     margin: 0 auto;
     .portfolio-box-caption {
-        color: white;
+        color: black;
         opacity: 0;
         display: block;
         background: rgba( $theme-primary, .9 );
@@ -296,11 +296,11 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant($theme-dark, white, white);
+    @include button-variant($theme-dark, black, black);
 }
 
 .btn-primary {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    @include button-variant(black, $theme-primary, $theme-primary);
 }
 
 .btn {
@@ -324,24 +324,24 @@ header {
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
-    color: white;
+    color: black;
     text-shadow: none;
     background: $theme-dark;
 }
 
 ::selection {
-    color: white;
+    color: black;
     text-shadow: none;
     background: $theme-dark;
 }
 
 img::selection {
-    color: white;
+    color: black;
     background: transparent;
 }
 
 img::-moz-selection {
-    color: white;
+    color: black;
     background: transparent;
 }
 
