@@ -100,16 +100,16 @@ aside {
                 > a,
                 > a:focus {
                     color: $theme-primary !important;
-                    background-color: transparent;
+                    background-color: black;
                     &:hover {
-                        background-color: transparent;
+                        background-color: black;
                     }
                 }
             }
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
+        background-color: black;
         border-color: rgba(white, .7);
         .navbar-header .navbar-brand {
             color: rgba(white, .9);
