@@ -90,7 +90,7 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: 18px;
+                font-size: 16px;
                 color: $theme-dark;
                 &:hover {
                     color: $theme-dark;
@@ -130,7 +130,7 @@ aside {
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: orange;
-                font-size: 24px;
+                font-size: 22px;
                 &:hover,
                 &:focus {
                     color: darken(orange, 10%);
