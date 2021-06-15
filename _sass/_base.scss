@@ -223,7 +223,7 @@ header {
 }
 
 .portfolio-box {
-    title: "Experiences";
+    title: "Publications";
     position: relative;
     display: block;
     max-width: 650px;
@@ -232,7 +232,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: rgba( orange, .9 );
+        background: rgba(white, .9 );
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -287,7 +287,7 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: orange;
+    color: white;
 }
 
 .no-gutter > [class*='col-'] {
