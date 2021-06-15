@@ -126,7 +126,7 @@ aside {
             }
         }
         &.affix {
-            background-color: white;
+            background-color: $theme-dark;
             border-color: rgba(orange, .5);
             .navbar-header .navbar-brand {
                 color: orange;
