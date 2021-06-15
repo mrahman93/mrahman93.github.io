@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-    border-color: $theme-primary;
+    border-color: orange;
     border-width: 3px;
     max-width: 50px;
 }
@@ -20,10 +20,10 @@ hr.light {
 
 a {
     @include transition-all;
-    color: $theme-primary;
+    color: orange;
     &:hover,
     &:focus {
-        color: darken($theme-primary, 10%);
+        color: darken(orange, 10%);
     }
 }
 
@@ -43,7 +43,7 @@ p {
 }
 
 .bg-primary {
-    background-color: $theme-primary;
+    background-color: orange;
 }
 
 .bg-dark {
@@ -81,7 +81,7 @@ aside {
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: darken(orange, 10%);
         }
     }
     .nav {
@@ -93,23 +93,23 @@ aside {
                 font-size: 13px;
                 color: $theme-dark;
                 &:hover {
-                    color: $theme-primary;
+                    color: orange;
                 }
             }
             &.active {
                 > a,
                 > a:focus {
-                    color: $theme-primary !important;
-                    background-color: $theme-primary;
+                    color: orange !important;
+                    background-color: orange;
                     &:hover {
-                        background-color: $theme-primary;
+                        background-color: orange;
                     }
                 }
             }
         }
     }
     @media (min-width: 768px) {
-        background-color: $theme-primary;
+        background-color: orange;
         border-color: rgba(white, .7);
         .navbar-header .navbar-brand {
             color: rgba(black, .9);
@@ -133,14 +133,14 @@ aside {
                 font-size: 20px;
                 &:hover,
                 &:focus {
-                    color: darken($theme-primary, 10%);
+                    color: darken(orange, 10%);
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
                 color: $theme-dark;
                 &:hover {
-                    color: $theme-primary;
+                    color: orange;
                 }
             }
         }
@@ -232,7 +232,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: rgba( $theme-primary, .9 );
+        background: rgba( orange, .9 );
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -287,7 +287,7 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: $theme-primary;
+    color: orange;
 }
 
 .no-gutter > [class*='col-'] {
@@ -301,7 +301,7 @@ header {
 }
 
 .btn-primary {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    @include button-variant(white, orange, orange);
 }
 
 .btn {
