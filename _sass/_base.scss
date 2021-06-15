@@ -43,7 +43,7 @@ p {
 }
 
 .bg-primary {
-    background-color: white;
+    background-color: black;
 }
 
 .bg-dark {
@@ -232,7 +232,7 @@ header {
         color: $theme-dark;
         opacity: 0;
         display: block;
-        background: rgba(white, .9 );
+        background: rgba(black, .9 );
         position: absolute;
         bottom: 0;
         text-align: center;
