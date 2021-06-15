@@ -262,7 +262,7 @@ header {
     }
     &:hover {
         .portfolio-box-caption {
-            opacity: 1;
+            opacity: 0;
         }
     }
     @media (min-width: 768px) {
@@ -297,7 +297,7 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant($theme-dark, white, white);
+    @include button-variant($theme-dark, black, black);
 }
 
 .btn-primary {
