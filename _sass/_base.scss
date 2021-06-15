@@ -157,7 +157,7 @@ header {
     background-position: center;
     background-image: url('../img/umbc.jpg');
     text-align: center;
-    color: $theme-primary;
+    color: $theme-dark;
     .header-content {
         position: relative;
         text-align: center;
@@ -327,26 +327,26 @@ header {
 ::-moz-selection {
     color: black;
     text-shadow: none;
-    background: $theme-primary;
+    background: $theme-dark;
 }
 
 ::selection {
     color: black;
     text-shadow: none;
-    background: $theme-primary;
+    background: $theme-dark;
 }
 
 img::selection {
     color: black;
-    background: $theme-primary;
+    background: $theme-dark;
 }
 
 img::-moz-selection {
     color: black;
-    background: $theme-primary;
+    background: $theme-dark;
 }
 
 body {
-    -webkit-tap-highlight-color: $theme-primary;
+    -webkit-tap-highlight-color: $theme-dark;
 }
 
