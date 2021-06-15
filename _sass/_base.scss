@@ -297,11 +297,11 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant($theme-dark, $theme-dark, $theme-dark);
+    @include button-variant($theme-dark, white, white);
 }
 
 .btn-primary {
-    @include button-variant(white, orange, orange);
+    @include button-variant($theme-dark, orange, orange);
 }
 
 .btn {
