@@ -110,7 +110,7 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: orange;
-        border-color: rgba(white, .7);
+        border-color: rgba(black, .7);
         .navbar-header .navbar-brand {
             color: rgba(black, .9);
             &:hover,
@@ -229,7 +229,7 @@ header {
     max-width: 650px;
     margin: 0 auto;
     .portfolio-box-caption {
-        color: white;
+        color: $theme-dark;
         opacity: 0;
         display: block;
         background: rgba(white, .9 );
@@ -287,7 +287,7 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: white;
+    color: $theme-dark;
 }
 
 .no-gutter > [class*='col-'] {
