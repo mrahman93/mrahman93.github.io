@@ -81,7 +81,7 @@ aside {
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: darken(orange, 10%);
+            color: darken($theme-dark, 10%);
         }
     }
     .nav {
@@ -93,13 +93,13 @@ aside {
                 font-size: 13px;
                 color: $theme-dark;
                 &:hover {
-                    color: orange;
+                    color: $theme-dark;
                 }
             }
             &.active {
                 > a,
                 > a:focus {
-                    color: orange !important;
+                    color: $theme-dark !important;
                     background-color: orange;
                     &:hover {
                         background-color: orange;
