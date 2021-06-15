@@ -100,16 +100,16 @@ aside {
                 > a,
                 > a:focus {
                     color: $theme-primary !important;
-                    background-color: black;
+                    background-color: $theme-primary;
                     &:hover {
-                        background-color: black;
+                        background-color: $theme-primary;
                     }
                 }
             }
         }
     }
     @media (min-width: 768px) {
-        background-color: black;
+        background-color: $theme-primary;
         border-color: rgba(white, .7);
         .navbar-header .navbar-brand {
             color: rgba(black, .9);
