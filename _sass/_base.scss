@@ -15,7 +15,7 @@ hr {
 }
 
 hr.light {
-    border-color: black;
+    border-color: orange;
 }
 
 a {
@@ -75,7 +75,7 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: orange;
+        color: $theme-dark;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
@@ -110,7 +110,7 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: orange;
-        border-color: rgba(black, .7);
+        border-color: rgba(orange, .7);
         .navbar-header .navbar-brand {
             color: rgba(black, .9);
             &:hover,
@@ -127,7 +127,7 @@ aside {
         }
         &.affix {
             background-color: white;
-            border-color: rgba($theme-dark, .5);
+            border-color: rgba(orange, .5);
             .navbar-header .navbar-brand {
                 color: orange;
                 font-size: 22px;
