@@ -112,17 +112,17 @@ aside {
         background-color: black;
         border-color: rgba(white, .7);
         .navbar-header .navbar-brand {
-            color: rgba(white, .9);
+            color: rgba(black, .9);
             &:hover,
             &:focus {
-                color: white;
+                color: black;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .9);
+            color: rgba(black, .9);
             &:hover {
-                color: white;
+                color: black;
             }
         }
         &.affix {
@@ -157,7 +157,7 @@ header {
     background-position: center;
     background-image: url('../img/umbc.jpg');
     text-align: center;
-    color: Orange;
+    color: $theme-dark;
     .header-content {
         position: relative;
         text-align: center;
@@ -223,7 +223,7 @@ header {
 }
 
 .portfolio-box {
-    title: "Publications";
+    title: "Experiences";
     position: relative;
     display: block;
     max-width: 650px;
@@ -338,12 +338,12 @@ header {
 
 img::selection {
     color: black;
-    background: transparent;
+    background: $theme-dark;
 }
 
 img::-moz-selection {
     color: black;
-    background: transparent;
+    background: $theme-dark;
 }
 
 body {
