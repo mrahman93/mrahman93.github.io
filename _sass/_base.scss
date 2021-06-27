@@ -184,7 +184,7 @@ header {
     @media (min-width: 768px) {
         min-height: 100%;
         .header-content {
-            position: relative;
+            position: absolute;
             top: 55%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
