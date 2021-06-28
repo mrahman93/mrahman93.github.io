@@ -129,11 +129,11 @@ aside {
             background-color: white;
             border-color: rgba(orange, .5);
             .navbar-header .navbar-brand {
-                color: orange;
+                color: black;
                 font-size: 22px;
                 &:hover,
                 &:focus {
-                    color: darken(orange, 10%);
+                    color: darken(black, 10%);
                 }
             }
             .nav > li > a,
