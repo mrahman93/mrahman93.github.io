@@ -301,7 +301,7 @@ header {
 }
 
 .btn-primary {
-    @include button-variant($theme-dark, orange, orange);
+    @include button-variant($theme-dark, white, white);
 }
 
 .btn {
