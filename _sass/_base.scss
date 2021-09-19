@@ -140,7 +140,7 @@ aside {
             .nav > li > a:focus {
                 color: $theme-dark;
                 &:hover {
-                    color: white;
+                    color: orange;
                 }
             }
         }
@@ -301,7 +301,7 @@ header {
 }
 
 .btn-primary {
-    @include button-variant($theme-dark, white, white);
+    @include button-variant($theme-dark, white, orange);
 }
 
 .btn {
