@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-    border-color: white;
+    border-color: black;
     border-width: 3px;
     max-width: 50px;
 }
@@ -48,7 +48,7 @@ p {
 
 .bg-dark {
     background-color: white;
-    color: black;
+    color: white;
 }
 
 .text-faded {
@@ -232,7 +232,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: rgba(black, .9 );
+        background: rgba(white, .9 );
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -297,7 +297,7 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant(white, black, black);
+    @include button-variant(black, black, black);
 }
 
 .btn-primary {
