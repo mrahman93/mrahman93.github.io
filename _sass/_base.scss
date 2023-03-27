@@ -9,21 +9,21 @@ body {
 }
 
 hr {
-    border-color: orange;
+    border-color: darkblue;
     border-width: 3px;
     max-width: 50px;
 }
 
 hr.light {
-    border-color: orange;
+    border-color: darkblue;
 }
 
 a {
     @include transition-all;
-    color: darkblue;
+    color: orange;
     &:hover,
     &:focus {
-        color: darken(darkblue, 10%);
+        color: darken(orange, 10%);
     }
 }
 
@@ -48,11 +48,11 @@ p {
 
 .bg-dark {
     background-color: $theme-dark;
-    color: black;
+    color: white;
 }
 
 .text-faded {
-    color: rgba(black, .9);
+    color: rgba(white, .9);
 }
 
 section {
@@ -109,8 +109,8 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: orange;
-        border-color: rgba(orange, .7);
+        background-color: darkblue;
+        border-color: rgba(darkblue, .7);
         .navbar-header .navbar-brand {
             color: rgba(black, .9);
             &:hover,
