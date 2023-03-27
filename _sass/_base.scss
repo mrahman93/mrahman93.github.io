@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-    border-color: black;
+    border-color: white;
     border-width: 3px;
     max-width: 50px;
 }
@@ -301,7 +301,7 @@ header {
 }
 
 .btn-primary {
-    @include button-variant(white, white, orange);
+    @include button-variant(black, white, orange);
 }
 
 .btn {
