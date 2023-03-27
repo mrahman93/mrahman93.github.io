@@ -43,16 +43,16 @@ p {
 }
 
 .bg-primary {
-    background-color: white;
+    background-color: black;
 }
 
 .bg-dark {
     background-color: $theme-dark;
-    color: white;
+    color: black;
 }
 
 .text-faded {
-    color: rgba(white, .9);
+    color: rgba(black, .9);
 }
 
 section {
@@ -129,11 +129,11 @@ aside {
             background-color: white;
             border-color: rgba(orange, .9);
             .navbar-header .navbar-brand {
-                color: black;
+                color: white;
                 font-size: 22px;
                 &:hover,
                 &:focus {
-                    color: darken(black, 10%);
+                    color: darken(white, 10%);
                 }
             }
             .nav > li > a,
@@ -175,7 +175,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(black, .9);
+                color: rgba(white, .9);
                 font-size: 24px;
                 margin-bottom: 50px;
             }
