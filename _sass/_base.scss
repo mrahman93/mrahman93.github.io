@@ -47,7 +47,7 @@ p {
 }
 
 .bg-dark {
-    background-color: $theme-dark;
+    background-color: white;
     color: black;
 }
 
@@ -71,17 +71,17 @@ aside {
 
 .navbar-default {
     background-color: black;
-    border-color: rgba($theme-dark, .5);
+    border-color: rgba(white, .5);
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-dark;
+        color: white;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: darken($theme-dark, 10%);
+            color: darken(white, 10%);
         }
     }
     .nav {
@@ -91,15 +91,15 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 16px;
-                color: $theme-dark;
+                color: white;
                 &:hover {
-                    color: $theme-dark;
+                    color: white;
                 }
             }
             &.active {
                 > a,
                 > a:focus {
-                    color: $theme-dark !important;
+                    color: white !important;
                     background-color: orange;
                     &:hover {
                         background-color: orange;
@@ -138,7 +138,7 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: $theme-dark;
+                color: white;
                 &:hover {
                     color: orange;
                 }
@@ -157,7 +157,7 @@ header {
     background-position: center;
     background-image: url('../img/umbc.png');
     text-align: center;
-    color: $theme-dark;
+    color: white;
     .header-content {
         position: relative;
         text-align: center;
@@ -229,7 +229,7 @@ header {
     max-width: 650px;
     margin: 0 auto;
     .portfolio-box-caption {
-        color: $theme-dark;
+        color: white;
         opacity: 0;
         display: block;
         background: rgba(black, .9 );
@@ -287,7 +287,7 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: $theme-dark;
+    color: white;
 }
 
 .no-gutter > [class*='col-'] {
@@ -297,11 +297,11 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant($theme-dark, black, black);
+    @include button-variant(white, black, black);
 }
 
 .btn-primary {
-    @include button-variant($theme-dark, white, orange);
+    @include button-variant(white, white, orange);
 }
 
 .btn {
@@ -318,7 +318,7 @@ header {
 
 // Contact
 #contact .fa {
-    color: $theme-dark;
+    color: white;
     font-size: 4em;
 }
 
@@ -327,26 +327,26 @@ header {
 ::-moz-selection {
     color: white;
     text-shadow: none;
-    background: $theme-dark;
+    background: white;
 }
 
 ::selection {
     color: white;
     text-shadow: none;
-    background: $theme-dark;
+    background: white;
 }
 
 img::selection {
     color: white;
-    background: $theme-dark;
+    background: white;
 }
 
 img::-moz-selection {
     color: white;
-    background: $theme-dark;
+    background: white;
 }
 
 body {
-    -webkit-tap-highlight-color: $theme-dark;
+    -webkit-tap-highlight-color: white;
 }
 
