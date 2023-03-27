@@ -9,13 +9,13 @@ body {
 }
 
 hr {
-    border-color: darkblue;
+    border-color: black;
     border-width: 3px;
     max-width: 50px;
 }
 
 hr.light {
-    border-color: darkblue;
+    border-color: black;
 }
 
 a {
@@ -52,7 +52,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(black, .9);
+    color: rgba(white, .9);
 }
 
 section {
@@ -70,7 +70,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
+    background-color: black;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
@@ -109,24 +109,24 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: darkblue;
-        border-color: rgba(darkblue, .7);
+        background-color: black;
+        border-color: rgba(black, .7);
         .navbar-header .navbar-brand {
-            color: rgba(black, .9);
+            color: rgba(white, .9);
             &:hover,
             &:focus {
-                color: black;
+                color: white;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(black, .9);
+            color: rgba(white, .9);
             &:hover {
-                color: black;
+                color: white;
             }
         }
         &.affix {
-            background-color: white;
+            background-color: black;
             border-color: rgba(orange, .9);
             .navbar-header .navbar-brand {
                 color: white;
@@ -325,24 +325,24 @@ header {
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
-    color: black;
+    color: white;
     text-shadow: none;
     background: $theme-dark;
 }
 
 ::selection {
-    color: black;
+    color: white;
     text-shadow: none;
     background: $theme-dark;
 }
 
 img::selection {
-    color: black;
+    color: white;
     background: $theme-dark;
 }
 
 img::-moz-selection {
-    color: black;
+    color: white;
     background: $theme-dark;
 }
 
