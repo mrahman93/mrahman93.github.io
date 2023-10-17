@@ -1,8 +1,8 @@
 @mixin transition-all()
 {
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
+    -webkit-transition: all 0.15s;
+    -moz-transition: all 0.15s;
+    transition: all 0.15s;
 }
 
 @mixin background-cover()
