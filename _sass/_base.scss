@@ -1,11 +1,12 @@
 html,
 body {
     height: 100%;
-    width: 120%;
+    width: 100%;
 }
 
 body {
     @include serif-font;
+    width: 120%
 }
 
 hr {
