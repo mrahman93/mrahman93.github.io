@@ -56,11 +56,11 @@ p {
 }
 
 section {
-    padding: 0px 0;
+    padding: 100px 0;
 }
 
 aside {
-    padding: 0px 0;
+    padding: 50px 0;
 }
 
 .no-padding {
@@ -297,7 +297,7 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant(black, black, black);
+    @include button-variant(black, white, orange);
 }
 
 .btn-primary {
@@ -313,7 +313,7 @@ header {
 }
 
 .btn-xl {
-    padding: 15px 30px;
+    padding: 30px 30px;
 }
 
 // Contact
